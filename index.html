@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont">
+
+ <div class="calc">
+
+<form action="">
+
+<div class="head">
+
+    <input type="text"  name="head">
+</div>
+
+<div>
+<input type="button"  value="AC" onclick="head.value= '' " class="operator" >
+<input type="button"  value="de" onclick="head.value.toString().slice(0,1)" class="operator">
+
+<input type="button"  value="." onclick="head.value += '.' " class="operator">
+
+<input type="button"  value="/" onclick="head.value += '/' " class="operator">
+</div>
+
+
+
+<div>
+<input type="button"  value="7" onclick="head.value += '7' " >
+<input type="button"  value="8" onclick="head.value +='8' "  >
+
+<input type="button"  value="9" onclick="head.value += '9' "  >
+
+<input type="button"  value="*" onclick="head.value += '*' " class="operator"  >
+</div>
+
+
+<div>
+<input type="button"  value="4" onclick="head.value += '4' " >
+<input type="button"  value="5" onclick="head.value +='5' "  >
+
+<input type="button"  value="6" onclick="head.value += '6' "  >
+
+<input type="button"  value="-" onclick="head.value += '-' "  class="operator" >
+</div>
+
+
+
+<div>
+<input type="button"  value="1" onclick="head.value += '1' " >
+<input type="button"  value="2" onclick="head.value +='2' "  >
+
+<input type="button"  value="3" onclick="head.value += '3' "  >
+
+<input type="button"  value="+" onclick="head.value += '+' "  class="operator" >
+</div>
+
+<div>
+<input type="button"  value="00" onclick="head.value += '00' " >
+<input type="button"  value="0" onclick="head.value +='0' "  >
+
+ 
+
+<input type="button"  value="=" onclick="head.value  = eval(head.value)"  class="operator" >
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+ </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
