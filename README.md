@@ -23,5 +23,10 @@ This project is a simple calculator built using basic web technologies. It allow
 4.  Use the `C` button to clear the screen.
 
 ---
+🔗 Project Links
+Live Demo: [https://medhat1919.github.io/Calculator/]
 
+Repository: [https://github.com/medhat1919/Calculator.git]
+
+ 
 Created by [GitHub Copilot](https://copilot.github.com/).
